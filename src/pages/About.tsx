@@ -87,7 +87,7 @@ export default function About() {
               </div>
               <div>
                 <h3 className="text-white/40 text-sm mb-1">Team Size</h3>
-                <p className="text-white">2-4 Members</p>
+                <p className="text-white">2-5 Members</p>
               </div>
               <div>
                 <h3 className="text-white/40 text-sm mb-1">Final Round</h3>

@@ -27,7 +27,6 @@ interface Registration {
 }
 
 export default function Dashboard() {
-  const navigate = useNavigate()
   const [registrations, setRegistrations] = useState<Registration[]>([])
   const [searchTerm, setSearchTerm] = useState('')
   const [selectedRegistration, setSelectedRegistration] = useState<Registration | null>(null)
@@ -40,7 +39,7 @@ export default function Dashboard() {
   const fetchRegistrations = async () => {
     try {
       const token = getAuthToken()
-      const response = await fetch(`${(import.meta.env as any).VITE_API_URL || 'http://localhost:5000'}/api/registrations`, {
+      const response = await fetch(`${import.meta.env.VITE_API_URL || 'http://localhost:5000'}/api/registrations`, {
         headers: {
           'Authorization': `Bearer ${token}`
         }

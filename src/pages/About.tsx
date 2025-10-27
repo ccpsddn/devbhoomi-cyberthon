@@ -9,8 +9,8 @@ export default function About() {
     { title: 'Registration Closes', date: 'Nov 4, 2024' },
     { title: 'Prelims Hackathon Begins', date: 'Nov 5, 2024 9:00 AM' },
     { title: 'Prelims Hackathon Ends', date: 'Nov 5, 2024 3:00 PM' },
-    { title: 'Final Round', date: 'Nov 15, 2024 4:00 PM' },
-    { title: 'Award Ceremony', date: 'Nov 15, 2024 6:00 PM' },
+    { title: 'Result Announcement', date: 'Nov 15, 2024 4:00 PM' },
+    { title: 'Final Round & Award Ceremony', date: 'Nov 25, 2024 6:00 PM' },
   ]
 
   const themes = [

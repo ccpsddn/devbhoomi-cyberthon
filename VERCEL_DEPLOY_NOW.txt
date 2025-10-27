@@ -1,0 +1,58 @@
+🎉 SUCCESS! BACKEND DEPLOYED!
+
+URL: https://devbhoomi-cyberthon.onrender.com
+
+===============================================
+📝 AB VERCEL.COM PE FRONTEND:
+===============================================
+
+1️⃣ GO TO: https://vercel.com
+   (New tab me open karein)
+
+2️⃣ "Add New..." → "Project"
+
+3️⃣ GitHub Repo: ccpsddn/devbhoomi-cyberthon
+   (Connect if not already)
+
+4️⃣ Framework Preset: "Vite"
+
+5️⃣ Build Settings:
+   - Root Directory: ./
+   - Build Command: npm run build
+   - Output Directory: dist
+
+6️⃣ Environment Variables:
+   Name: VITE_API_URL
+   Value: https://devbhoomi-cyberthon.onrender.com
+
+7️⃣ Click: "Deploy"
+
+8️⃣ WAIT (2-3 minutes)
+
+9️⃣ COPY Your Vercel URL
+   Example: https://devbhoomi-cyberthon.vercel.app
+
+===============================================
+✅ FIR LAST STEP:
+===============================================
+
+Render dashboard par wapas jao:
+
+1. "Environment" tab
+2. Add New Variable:
+   Name: FRONTEND_URL
+   Value: [Aapka Vercel URL]
+
+3. Service automatically restart hoga
+
+===============================================
+🎉 DONE! YOUR APP IS LIVE!
+
+Frontend URL: https://your-app.vercel.app
+Admin Login: /admin/login
+
+Email: ccpsddn@gmail.com
+Password: CCPS@321
+
+===============================================
+

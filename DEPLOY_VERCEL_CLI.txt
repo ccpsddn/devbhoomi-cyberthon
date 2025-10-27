@@ -1,0 +1,67 @@
+🎉 BACKEND SUCCESSFULLY DEPLOYED!
+
+URL: https://devbhoomi-cyberthon.onrender.com
+Status: MongoDB Connected ✅
+
+===============================================
+📝 VERCEL CLI DEPLOYMENT:
+===============================================
+
+COMMAND 1: Install Vercel (if needed)
+------------------------------------
+npm i -g vercel
+
+
+COMMAND 2: Login to Vercel
+---------------------------
+vercel login
+
+
+COMMAND 3: Deploy to Vercel
+----------------------------
+vercel --prod
+
+(First time - it will ask questions:
+ - Link to existing project? NO
+ - What's your project's name? devbhoomi-cyberthon
+ - In which directory is your code located? ./
+ - Want to modify settings? YES
+   - Add environment variable: VITE_API_URL
+   - Value: https://devbhoomi-cyberthon.onrender.com
+   - Continue? YES
+)
+
+
+COMMAND 4: Get Your URL
+------------------------
+vercel ls
+
+(Copy the production URL)
+
+
+===============================================
+✅ ALTERNATIVE: VERCEL WEBSITE
+===============================================
+
+If CLI doesn't work:
+
+1. Go to: https://vercel.com/new
+2. Import: ccpsddn/devbhoomi-cyberthon
+3. Add Env Variable:
+   Name: VITE_API_URL
+   Value: https://devbhoomi-cyberthon.onrender.com
+4. Click: Deploy
+5. Done!
+
+
+===============================================
+📝 AFTER FRONTEND DEPLOY:
+===============================================
+
+Go back to Render:
+1. Environment tab
+2. Add: FRONTEND_URL = [Your Vercel URL]
+3. Auto-restart
+
+===============================================
+

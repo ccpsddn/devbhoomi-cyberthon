@@ -1,0 +1,61 @@
+🎉 SUCCESS! Code is now on GitHub!
+
+====================
+RAILWAY DEPLOYMENT
+====================
+
+✅ YOUR GITHUB: https://github.com/ccpsddn/devbhoomi-cyberthon
+
+---
+
+📋 RAILWAY DASHBOARD STEPS:
+
+1. Go to your Railway dashboard
+2. Click the "+" button (or "New Service")
+3. Select "GitHub Repo"
+4. Connect: Select "ccpsddn/devbhoomi-cyberthon"
+5. Railway will auto-detect server.js
+6. Click "Deploy"
+
+7. After deployment starts:
+   - Go to "Variables" tab
+   - Add these 3:
+   
+   MONGODB_URI = mongodb+srv://himanshusangwan141_db_user:Lakshay123@cluster0.zxau600.mongodb.net/devbhoomi-cyberthon?retryWrites=true&w=majority
+   
+   JWT_SECRET = devbhoomi_cyberthon_secret_key_2024
+   
+   NODE_ENV = production
+
+8. Wait for deployment (2-3 minutes)
+
+9. Get URL:
+   - Go to "Settings" tab
+   - Under "Networking"
+   - Click "Generate Domain"
+   - Copy the URL
+
+---
+
+📋 VERCEL FRONTEND:
+
+1. Go to: https://vercel.com
+2. Click "New Project"
+3. Import: ccpsddn/devbhoomi-cyberthon
+4. Framework: Vite
+5. Add Environment Variable:
+   Name: VITE_API_URL
+   Value: [Your Railway URL]
+6. Click "Deploy"
+
+---
+
+📋 FINAL STEP:
+
+Go back to Railway → Variables tab
+Add: FRONTEND_URL = [Your Vercel URL]
+
+---
+
+✅ DONE! Your app is live! 🚀
+

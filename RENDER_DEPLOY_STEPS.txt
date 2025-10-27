@@ -1,0 +1,53 @@
+🎯 CURRENT SCREEN: Render.com "New Web Service"
+
+===============================================
+✅ AAB YE KAREIN:
+===============================================
+
+1️⃣ BUILD COMMAND BADALO:
+   Current: `$ npm install; npm run build`
+   Change to: `npm install`
+   
+   (Backend hai, build nahi chahiye)
+
+2️⃣ START COMMAND BADALO:
+   Current: `$ yarn start`
+   Change to: `node server.js`
+   
+   (Backend server start karega)
+
+3️⃣ REST SAB THEEK HAI:
+   ✅ Name: devbhoomi-cyberthon
+   ✅ Language: Node
+   ✅ Branch: main
+   ✅ Source: ccpsddn/devbhoomi-cyberthon
+
+4️⃣ CLICK: "Create Web Service" BUTTON
+
+===============================================
+⏳ DEPLOYMENT SHURU HOGA
+(2-3 minutes wait karein)
+
+===============================================
+📝 DEPLOYMENT KE BAAD:
+===============================================
+
+1. Service page par jayenge
+2. "Environment" tab click karein
+3. 3 variables add karein:
+
+   MONGODB_URI = mongodb+srv://himanshusangwan141_db_user:Lakshay123@cluster0.zxau600.mongodb.net/devbhoomi-cyberthon?retryWrites=true&w=majority
+
+   JWT_SECRET = devbhoomi_cyberthon_secret_key_2024
+
+   NODE_ENV = production
+
+4. Service restart hoga automatically
+
+5. URL get karein:
+   - "Settings" tab → "Service URL"
+
+===============================================
+🎉 FIR VERCEL SE FRONTEND DEPLOY KAREIN
+===============================================
+

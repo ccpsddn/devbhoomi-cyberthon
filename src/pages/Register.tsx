@@ -54,7 +54,7 @@ export default function Register() {
         membersCount: [formData.member1, formData.member2, formData.member3].filter(Boolean).length + 1,
       }
       
-      const response = await fetch(`${import.meta.env.VITE_API_URL || 'http://localhost:5000'}/api/register`, {
+      const response = await fetch(`${(import.meta.env as any).VITE_API_URL || 'http://localhost:5000'}/api/register`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

@@ -1,0 +1,34 @@
+🔴 ISSUE: MongoDB Connection Failed
+
+===============================================
+✅ FIX IN 2 MINUTES:
+===============================================
+
+1️⃣ GO TO: https://cloud.mongodb.com
+
+2️⃣ LOGIN with your credentials
+
+3️⃣ CLICK: Your Cluster (Cluster0)
+
+4️⃣ GO TO: "Network Access" (Left sidebar)
+
+5️⃣ CLICK: "Add IP Address"
+
+6️⃣ SELECT: "Allow Access from Anywhere"
+   OR manually add: 0.0.0.0/0
+
+7️⃣ CLICK: "Confirm"
+
+8️⃣ WAIT: 2-3 minutes (network update time)
+
+9️⃣ GO BACK: Render dashboard
+
+🔟 RESTART: Your Render service
+    - Render dashboard → Your service
+    - Click "Manual Deploy" → "Restart"
+
+===============================================
+✅ DONE! MongoDB connect ho jayega!
+
+Now test: https://devbhoomi-cyberthon.onrender.com
+

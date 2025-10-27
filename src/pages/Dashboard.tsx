@@ -6,7 +6,7 @@ import { Badge } from '@/components/ui/badge'
 import { Input } from '@/components/ui/input'
 import { Button } from '@/components/ui/button'
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from '@/components/ui/table'
-import { Users, Shield, FileText, Building2, Search, Download, Eye, LogOut, User } from 'lucide-react'
+import { Users, Shield, Building2, Search, Download, Eye, LogOut, User } from 'lucide-react'
 import { logout, getAuthToken } from '@/utils/auth'
 
 interface Registration {
@@ -40,7 +40,7 @@ export default function Dashboard() {
   const fetchRegistrations = async () => {
     try {
       const token = getAuthToken()
-      const response = await fetch(`${import.meta.env.VITE_API_URL || 'http://localhost:5000'}/api/registrations`, {
+      const response = await fetch(`${(import.meta.env as any).VITE_API_URL || 'http://localhost:5000'}/api/registrations`, {
         headers: {
           'Authorization': `Bearer ${token}`
         }

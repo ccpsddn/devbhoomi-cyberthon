@@ -1,0 +1,44 @@
+🔴 ISSUE: Frontend localhost se connect ho raha hai
+
+===============================================
+✅ FIX - VERCEL.COM PAR JANA HAI:
+===============================================
+
+1️⃣ GO TO: https://vercel.com/ccps-projects-4c5f713a/hackathon
+
+2️⃣ CLICK: "Settings" tab (top menu)
+
+3️⃣ SCROLL DOWN: "Environment Variables" section
+
+4️⃣ ADD NEW VARIABLE:
+   - Name: VITE_API_URL
+   - Value: https://devbhoomi-cyberthon.onrender.com
+   - Environment: Production, Preview, Development (all)
+
+5️⃣ CLICK: "Save"
+
+6️⃣ REDEPLOY:
+   - Go to "Deployments" tab
+   - Click 3 dots on latest deployment
+   - Click "Redeploy"
+
+7️⃣ WAIT: 2-3 minutes
+
+✅ DONE! Ab Render se connect hoga!
+
+
+===============================================
+🔄 ALTERNATIVE: CLI SE:
+===============================================
+
+PowerShell me:
+
+vercel env add VITE_API_URL production
+# When prompted, enter: https://devbhoomi-cyberthon.onrender.com
+
+Then:
+vercel --prod
+
+
+===============================================
+

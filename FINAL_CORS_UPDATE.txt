@@ -1,0 +1,48 @@
+✅ PROGRESS: Frontend ab Render pe connect ho raha hai!
+
+===============================================
+📝 LAST STEP - RENDER PAR ENV VARIABLE:
+===============================================
+
+1️⃣ GO TO: https://dashboard.render.com
+
+2️⃣ CLICK: Your service "devbhoomi-cyberthon"
+
+3️⃣ CLICK: "Environment" tab (left sidebar)
+
+4️⃣ CLICK: "Add Environment Variable"
+
+5️⃣ ADD THIS:
+   - Name: FRONTEND_URL
+   - Value: https://hackathon-indol-six.vercel.app
+
+6️⃣ CLICK: "Save Changes"
+
+7️⃣ SERVICE auto-restart hoga
+
+===============================================
+✅ TEST KAREIN:
+===============================================
+
+1. Frontend: https://hackathon-indol-six.vercel.app
+
+2. Admin Login: 
+   URL: /admin/login
+   Email: ccpsddn@gmail.com
+   Password: CCPS@321
+
+3. Registration test:
+   /register par jao
+
+===============================================
+🎉 DONE! DONE! DONE! 🎉
+===============================================
+
+- ✅ Backend: https://devbhoomi-cyberthon.onrender.com
+- ✅ Frontend: https://hackathon-indol-six.vercel.app
+- ✅ MongoDB: Connected
+- ✅ CORS: Working
+- ✅ Free forever: ₹0/month
+
+===============================================
+

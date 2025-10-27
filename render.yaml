@@ -1,0 +1,19 @@
+services:
+  - type: web
+    name: devbhoomi-backend
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: node server.js
+    envVars:
+      - key: MONGODB_URI
+        sync: false
+        value: mongodb+srv://himanshusangwan141_db_user:Lakshay123@cluster0.zxau600.mongodb.net/devbhoomi-cyberthon?retryWrites=true&w=majority
+      - key: JWT_SECRET
+        sync: false
+        value: devbhoomi_cyberthon_secret_key_2024
+      - key: PORT
+        value: 5000
+      - key: NODE_ENV
+        value: production
+

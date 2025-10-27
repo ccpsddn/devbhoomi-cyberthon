@@ -1,0 +1,45 @@
+==============================================
+RAILWAY CLICK-TO-DEPLOY (Easiest Method)
+==============================================
+
+Since CLI is having issues, use Railway Dashboard:
+
+STEP 1: Go to https://railway.app
+        - Login with your account
+        - Click on your project: devbhoomi-backend
+
+STEP 2: Click "New" → "GitHub Repo"
+        - Select your repository
+        - Or click "Empty Project" and we'll upload files
+
+STEP 3: Click "Variables" tab
+        Add these 3 variables:
+        
+        1. MONGODB_URI = mongodb+srv://himanshusangwan141_db_user:Lakshay123@cluster0.zxau600.mongodb.net/devbhoomi-cyberthon?retryWrites=true&w=majority
+        
+        2. JWT_SECRET = devbhoomi_cyberthon_secret_key_2024
+        
+        3. NODE_ENV = production
+
+STEP 4: Go to "Settings" tab
+        - Build Command: npm install
+        - Start Command: node server.js
+        - Root Directory: /
+
+STEP 5: Click "Deploy"
+        Wait 2-3 minutes
+
+STEP 6: Get your URL
+        - Open "Settings" → "Networking"
+        - Copy "Public Domain" URL
+        Example: https://devbhoomi-backend-production.up.railway.app
+
+STEP 7: For Frontend
+        Go to vercel.com and deploy
+        Add environment variable:
+        VITE_API_URL = (your Railway URL from step 6)
+
+==============================================
+DONE! Your backend is live on Railway
+==============================================
+

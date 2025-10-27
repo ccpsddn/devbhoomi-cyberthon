@@ -1,0 +1,89 @@
+🚀 DEPLOYMENT INSTRUCTIONS - Devbhoomi Cyberthon 3.0
+=====================================================
+
+🌟 EASIEST WAY: Railway (Backend) + Vercel (Frontend)
+
+📝 STEP 1: Deploy Backend on Railway
+------------------------------------
+1. Go to: https://railway.app
+2. Sign up with GitHub
+3. Click "New Project" → "Deploy from GitHub"
+4. Select your repository
+5. Add Environment Variables:
+   
+   MONGODB_URI = mongodb+srv://himanshusangwan141_db_user:Lakshay123@cluster0.zxau600.mongodb.net/devbhoomi-cyberthon?retryWrites=true&w=majority
+   
+   JWT_SECRET = devbhoomi_cyberthon_secret_key_2024
+   
+   FRONTEND_URL = (will add this in step 3)
+   
+6. Click "Deploy"
+7. Wait for deployment (2-3 minutes)
+8. Copy your Railway URL (e.g., https://devbhoomi-backend.up.railway.app)
+
+
+📝 STEP 2: Deploy Frontend on Vercel
+------------------------------------
+1. Go to: https://vercel.com
+2. Sign up with GitHub
+3. Click "New Project"
+4. Import your GitHub repository
+5. Framework Preset: "Vite"
+6. Add Environment Variable:
+   
+   VITE_API_URL = YOUR_RAILWAY_URL_HERE
+   
+   (e.g., https://devbhoomi-backend.up.railway.app)
+   
+7. Click "Deploy"
+8. Your frontend will be live! (e.g., https://devbhoomi-cyberthon.vercel.app)
+
+
+📝 STEP 3: Update CORS on Railway
+----------------------------------
+1. Go back to Railway dashboard
+2. Click on your backend service
+3. Go to "Variables" tab
+4. Add new variable:
+   
+   FRONTEND_URL = YOUR_VERCEL_URL_HERE
+   
+   (e.g., https://devbhoomi-cyberthon.vercel.app)
+   
+5. Service will automatically restart
+
+
+✅ DONE! Your app is live at VERCEL URL
+
+
+🔐 ADMIN LOGIN
+--------------
+URL: https://your-frontend-url.vercel.app/admin/login
+Email: ccpsddn@gmail.com
+Password: CCPS@321
+
+
+📱 FEATURES LIVE:
+-----------------
+✅ User registration with MongoDB
+✅ Admin login and authentication
+✅ Protected dashboard
+✅ View all registrations
+✅ Search and filter
+✅ Export data
+✅ Statistics
+✅ All 11 problem statements
+
+
+💰 COST: $0/month FOREVER!
+
+
+🆘 ISSUES?
+----------
+- If CORS error: Check FRONTEND_URL in Railway
+- If 404 error: Check VITE_API_URL in Vercel
+- If MongoDB error: Check Atlas IP whitelist allows 0.0.0.0/0
+
+
+🎉 HAPPY DEPLOYING!
+

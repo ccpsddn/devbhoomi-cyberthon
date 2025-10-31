@@ -34,7 +34,7 @@ export default function Index() {
               </div>
               <div>
                 <h3 className="text-white font-semibold mb-1">Event Date</h3>
-                <p className="text-white/40 text-sm">November 8-25, 2025</p>
+                <p className="text-white/40 text-sm">November 9-20, 2025</p>
               </div>
             </div>
           </Card>

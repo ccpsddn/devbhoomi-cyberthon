@@ -6,11 +6,12 @@ import { Shield, Target, Users, Award, Trophy, MapPin } from 'lucide-react'
 export default function About() {
   const timelineItems = [
     { title: 'Registration Opens', date: 'Oct 27, 2025' },
-    { title: 'Registration Closes', date: 'Nov 7, 2025' },
-    { title: 'Prelims Hackathon Begins', date: 'Nov 8, 2025 9:00 AM' },
-    { title: 'Prelims Hackathon Ends', date: 'Nov 8, 2025 3:00 PM' },
-    { title: 'Result Announcement', date: 'Nov 15, 2025 4:00 PM' },
-    { title: 'Final Round & Award Ceremony', date: 'Nov 25, 2025 6:00 PM' },
+    { title: 'Registration Closes', date: 'Nov 5, 2025' },
+    { title: 'Prelims Hackathon Begins', date: 'Nov 9, 2025 9:00 AM' },
+    { title: 'Prelims Hackathon Ends', date: 'Nov 9, 2025 3:00 PM' },
+    { title: 'Result Announcement', date: 'Nov 11, 2025 4:00 PM' },
+    { title: 'Final Round ', date: 'Nov 18, 2025 6:00 PM' },
+    { title: 'Result Announcement & Award Ceremony', date: 'Nov 20, 2025 6:00 PM' },
   ]
 
   const themes = [
